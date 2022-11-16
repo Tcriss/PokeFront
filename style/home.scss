@@ -1,0 +1,69 @@
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+
+    .navbar1{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(32, 41, 72);
+
+        .bar{
+            display: flex;
+            text-align: right;
+        }
+    }
+
+    .events{
+        width: 60%;
+    
+        .event{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    }
+
+    .pokemones{
+        width: 60%;
+
+        .head{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            a{
+                text-decoration: none;
+                font-size: 1.8rem;
+            }
+        }
+
+        .pokemon_list{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    }
+
+    .form{
+        width: 60%;
+
+        form{
+            gap: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    }
+
+}
